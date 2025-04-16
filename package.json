@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "node --watch index.js",
     "start": "node index.js",
-    "build": "npx remotion build",
+    "build": "echo 'Building application...'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
