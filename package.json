@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "postinstall": "chmod +x ./setup.sh && sudo ./setup.sh",
+    "postinstall": "chmod +x ./scripts/postinstall.sh && sudo ./scripts/postinstall.sh",
     "dev": "node --watch index.js",
     "start": "node index.js",
     "build": "echo 'Building application...'",
